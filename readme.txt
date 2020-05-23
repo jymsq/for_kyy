@@ -3,7 +3,7 @@
 
 --65进入管理员界面需要密码是123
 
---需要创建4个表
+--需要创建5个表
 create table lab(
 course_name varchar(20) ,
 lab_name varchar(20),
@@ -27,5 +27,8 @@ create table teacher
 ( id varchar(20),
 	name varchar(20),
 password varchar(20)
+);
+create table time(
+lab_time varchar(20)
 );
 
